@@ -8,8 +8,8 @@ http://codeigniter.com/forums/viewthread/164729/ (the patch by zoko2902 is inclu
 
 # How do you use it?
 
-	$columns = array(‘id’,‘name’, ‘description’);
-	$joins = ‘LEFT JOIN ...’;
-	$search = ‘description’;
+	$columns = array('id','name', 'description');
+	$joins = 'LEFT JOIN ...';
+	$search = 'description';
 
-	echo $this->datatables->generate(‘table’,$columns,‘id’, $joins, $where, $search);
+	echo $this->datatables->generate('table',$columns,'id', $joins, $where, $search);
